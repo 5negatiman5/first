@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 63px 185px;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+button {
+    background: #FF7143;
+    border-radius: 10px;
+    padding: 19px 60px;
+    border: none;
+    color: white;
+    font-weight: 700;
+
+}
+
+button:hover {
+    color: #FF7143;
+    background-color: rgb(105, 90, 149);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+header {
+    display: flex;
+    margin: 220px 263px;
+    gap: 74px;
+    justify-content: space-around
+
+}
+
+.card {
+    justify-content: space-between;
+    width: 307px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.card img {
+    width: 100px;
+}
+
+
+
+.sellcard {
+    display: flex;
+    flex-direction: column;
+background: #F8F8F8;
+    width: 330px;
+    align-items: center;
+    border: 10px;
+    border-radius: 10px;
+    color: #696871;
+}
+main{
+    display: flex;
+    margin: 98px 165px;
+    justify-content: space-around;
+
+}
+.sellcard h1{
+   margin-top: 34px;
+   font-size: 17px;
+   line-height: 28px;
+   margin-bottom: 22px;
+}
+.sellcard h2{
+    font-weight: 700;
+        font-size: 60px;
+        line-height: 56px;
+        color: #1D293F;
+        margin-bottom: 32px;
+        transition: 0,5s;
+}
+.sellcard h3{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+
+}
+.sellcard button{
+    transition: 0.5s;
+    width: 87%;
+    margin: 27px 21px;
+}
+.sellcard:hover{
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    color: white;
+
+}
+.sellcard:hover button{
+    background-color: orangered;
+    color: white;
+}
+.sellcard:hover{
+    color: white;
+}
+
+.subheader {
+    font-weight: 700;
+    font-size: 60px;
+    margin: 145px;
+}
